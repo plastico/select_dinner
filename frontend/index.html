@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>夕食提案AIエージェント</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div id="chat-container">
+        <div id="chat-box">
+        </div>
+        <div id="input-area">
+            <div id="options-container">
+            </div>
+            <div id="user-input-container">
+                <input type="text" id="user-input" placeholder="または、自由に入力してください...">
+                <button id="send-btn">送信</button>
+            </div>
+        </div>
+        <div id="loading" class="hidden">
+            <div class="spinner"></div>
+            <p>AIが考えています...</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
